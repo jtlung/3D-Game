@@ -17,6 +17,7 @@ Button you can press
 Health Bar
 Music and SFX
 CSG dead body bleeding out
+Equip and Unequip Gun
 
 ## References
 Nature Terrain Pack: https://kenney.nl/assets/nature-kit
