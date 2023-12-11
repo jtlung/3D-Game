@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bpclomkk4rtdm"
+path="res://.godot/imported/crops_dirtRowCorner.obj-b016a22fb56085a67bff5c1d8f24113b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crops_dirtRowCorner.obj-b016a22fb56085a67bff5c1d8f24113b.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/crops_dirtRowCorner.obj"
+dest_files=["res://.godot/imported/crops_dirtRowCorner.obj-b016a22fb56085a67bff5c1d8f24113b.mesh", "res://.godot/imported/crops_dirtRowCorner.obj-b016a22fb56085a67bff5c1d8f24113b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

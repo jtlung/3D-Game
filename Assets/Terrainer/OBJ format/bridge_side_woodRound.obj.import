@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bucyvka35hpij"
+path="res://.godot/imported/bridge_side_woodRound.obj-cc3868c87e32254509b0a7ea1b16ec79.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridge_side_woodRound.obj-cc3868c87e32254509b0a7ea1b16ec79.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/bridge_side_woodRound.obj"
+dest_files=["res://.godot/imported/bridge_side_woodRound.obj-cc3868c87e32254509b0a7ea1b16ec79.mesh", "res://.godot/imported/bridge_side_woodRound.obj-cc3868c87e32254509b0a7ea1b16ec79.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ouleohlpy4bd"
+path="res://.godot/imported/ground_riverTile.obj-bdf599b9b4ee679e5c0862a961a17969.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_riverTile.obj-bdf599b9b4ee679e5c0862a961a17969.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/ground_riverTile.obj"
+dest_files=["res://.godot/imported/ground_riverTile.obj-bdf599b9b4ee679e5c0862a961a17969.mesh", "res://.godot/imported/ground_riverTile.obj-bdf599b9b4ee679e5c0862a961a17969.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

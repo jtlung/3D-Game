@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de7o5d1teyg0k"
+path="res://.godot/imported/tree_plateau_dark.obj-cddefb894b7d4ea3a22329124265200b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_plateau_dark.obj-cddefb894b7d4ea3a22329124265200b.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/tree_plateau_dark.obj"
+dest_files=["res://.godot/imported/tree_plateau_dark.obj-cddefb894b7d4ea3a22329124265200b.mesh", "res://.godot/imported/tree_plateau_dark.obj-cddefb894b7d4ea3a22329124265200b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

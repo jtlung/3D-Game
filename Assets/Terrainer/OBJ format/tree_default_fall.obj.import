@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbamgiv6hxsu8"
+path="res://.godot/imported/tree_default_fall.obj-78581abc59f32c6107e90c5d708dacd7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_default_fall.obj-78581abc59f32c6107e90c5d708dacd7.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/tree_default_fall.obj"
+dest_files=["res://.godot/imported/tree_default_fall.obj-78581abc59f32c6107e90c5d708dacd7.mesh", "res://.godot/imported/tree_default_fall.obj-78581abc59f32c6107e90c5d708dacd7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

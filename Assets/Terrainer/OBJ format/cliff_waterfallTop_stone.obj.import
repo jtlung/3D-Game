@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://66ejxg6xh1m1"
+path="res://.godot/imported/cliff_waterfallTop_stone.obj-1f56d7d308dc8320b5cc54672a02bb7c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cliff_waterfallTop_stone.obj-1f56d7d308dc8320b5cc54672a02bb7c.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/cliff_waterfallTop_stone.obj"
+dest_files=["res://.godot/imported/cliff_waterfallTop_stone.obj-1f56d7d308dc8320b5cc54672a02bb7c.mesh", "res://.godot/imported/cliff_waterfallTop_stone.obj-1f56d7d308dc8320b5cc54672a02bb7c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

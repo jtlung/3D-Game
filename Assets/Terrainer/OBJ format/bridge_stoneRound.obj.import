@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dckuvki3eh8hy"
+path="res://.godot/imported/bridge_stoneRound.obj-dbda2b063866c1f96e290e8de6d0bbbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridge_stoneRound.obj-dbda2b063866c1f96e290e8de6d0bbbb.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/bridge_stoneRound.obj"
+dest_files=["res://.godot/imported/bridge_stoneRound.obj-dbda2b063866c1f96e290e8de6d0bbbb.mesh", "res://.godot/imported/bridge_stoneRound.obj-dbda2b063866c1f96e290e8de6d0bbbb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

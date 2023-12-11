@@ -17,23 +17,32 @@ shape = SubResource("BoxShape3D_jykfe")
 transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, 0, -0.8, 0)
 
 [node name="Skeleton3D" parent="Guy/Armature" index="0"]
-bones/0/position = Vector3(0, 0.0934818, -1.8367e-09)
-bones/0/rotation = Quaternion(-0.00515135, 0, 0, 0.999987)
-bones/2/rotation = Quaternion(-0.0141779, 0.000507836, 0.567129, 0.823507)
-bones/4/rotation = Quaternion(-0.0266523, 1.19167e-07, -1.20355e-08, 0.999645)
-bones/6/rotation = Quaternion(-0.0141779, -0.000507838, -0.567129, 0.823507)
-bones/8/position = Vector3(0, 0.102335, 0)
-bones/10/rotation = Quaternion(-0.00114107, -0.00540127, -0.706438, 0.707753)
-bones/11/rotation = Quaternion(0.0106242, 0.000875957, -0.00336666, 0.999938)
-bones/13/rotation = Quaternion(-0.00114107, 0.00540127, 0.706438, 0.707753)
-bones/14/rotation = Quaternion(0.0106242, -0.000875956, 0.00336666, 0.999938)
+bones/0/position = Vector3(0, 0.0716741, -1.8367e-09)
+bones/0/rotation = Quaternion(-0.00124657, 0, 0, 0.999999)
+bones/2/rotation = Quaternion(-0.0140143, 0.00190474, 0.581818, 0.813196)
+bones/4/rotation = Quaternion(-0.00618521, 1.19207e-07, -1.44706e-08, 0.999981)
+bones/6/rotation = Quaternion(-0.0140143, -0.00190474, -0.581818, 0.813196)
+bones/8/position = Vector3(0, 0.0965475, 0)
+bones/10/rotation = Quaternion(-0.000273995, -0.00129708, -0.706948, 0.707264)
+bones/11/rotation = Quaternion(0.00246617, 0.000203334, -0.000781495, 0.999997)
+bones/13/rotation = Quaternion(-0.000273995, 0.00129708, 0.706948, 0.707264)
+bones/14/rotation = Quaternion(0.00246618, -0.000203334, 0.000781495, 0.999997)
 
 [node name="Hand" parent="Guy/Armature/Skeleton3D" index="1"]
-transform = Transform3D(-0.934055, -0.356328, -0.0239272, 0.356536, -0.934269, -0.00494566, -0.0205921, -0.0131504, 0.999701, -0.993837, 0.133849, -0.0214982)
+transform = Transform3D(-0.946211, -0.322583, -0.0250092, 0.322919, -0.946366, -0.0107175, -0.0202106, -0.0182169, 0.99963, -0.962602, 0.100889, -0.0191188)
+
+[node name="spawn" type="Node3D" parent="Guy/Armature/Skeleton3D/Hand/raygun" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
 
 [node name="Pivot" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Pivot"]
+
+[node name="gunCD" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[connection signal="timeout" from="gunCD" to="." method="_on_gun_cd_timeout"]
 
 [editable path="Guy"]

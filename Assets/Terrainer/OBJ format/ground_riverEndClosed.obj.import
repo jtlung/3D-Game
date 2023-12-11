@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://u2fcbncxkgrt"
+path="res://.godot/imported/ground_riverEndClosed.obj-5090fa014f62f0cd3d8724dbe2c7b421.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_riverEndClosed.obj-5090fa014f62f0cd3d8724dbe2c7b421.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/ground_riverEndClosed.obj"
+dest_files=["res://.godot/imported/ground_riverEndClosed.obj-5090fa014f62f0cd3d8724dbe2c7b421.mesh", "res://.godot/imported/ground_riverEndClosed.obj-5090fa014f62f0cd3d8724dbe2c7b421.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

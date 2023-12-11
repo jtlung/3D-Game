@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgb7flar3nggb"
+path="res://.godot/imported/canoe.obj-eda442e3eac8d4b31ff0771d5f9239bc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/canoe.obj-eda442e3eac8d4b31ff0771d5f9239bc.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/canoe.obj"
+dest_files=["res://.godot/imported/canoe.obj-eda442e3eac8d4b31ff0771d5f9239bc.mesh", "res://.godot/imported/canoe.obj-eda442e3eac8d4b31ff0771d5f9239bc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

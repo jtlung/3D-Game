@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cusnmov5n01lv"
+path="res://.godot/imported/rock_smallI.obj-7ffe67723fb805ecbe264e695c4f87a9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rock_smallI.obj-7ffe67723fb805ecbe264e695c4f87a9.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/rock_smallI.obj"
+dest_files=["res://.godot/imported/rock_smallI.obj-7ffe67723fb805ecbe264e695c4f87a9.mesh", "res://.godot/imported/rock_smallI.obj-7ffe67723fb805ecbe264e695c4f87a9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

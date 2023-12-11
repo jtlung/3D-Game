@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://58qxiu2x8ubx"
+path="res://.godot/imported/tree_pineTallA_detailed.obj-7b5fb61122bb4df5b4f119284711faa0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_pineTallA_detailed.obj-7b5fb61122bb4df5b4f119284711faa0.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/tree_pineTallA_detailed.obj"
+dest_files=["res://.godot/imported/tree_pineTallA_detailed.obj-7b5fb61122bb4df5b4f119284711faa0.mesh", "res://.godot/imported/tree_pineTallA_detailed.obj-7b5fb61122bb4df5b4f119284711faa0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

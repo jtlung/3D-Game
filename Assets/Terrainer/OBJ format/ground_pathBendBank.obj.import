@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jwaggo5r4gem"
+path="res://.godot/imported/ground_pathBendBank.obj-fc823453757dbd9f5e5238f5fe7ae361.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_pathBendBank.obj-fc823453757dbd9f5e5238f5fe7ae361.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/ground_pathBendBank.obj"
+dest_files=["res://.godot/imported/ground_pathBendBank.obj-fc823453757dbd9f5e5238f5fe7ae361.mesh", "res://.godot/imported/ground_pathBendBank.obj-fc823453757dbd9f5e5238f5fe7ae361.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

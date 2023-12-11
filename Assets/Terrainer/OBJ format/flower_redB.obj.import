@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cs0rbikjao2of"
+path="res://.godot/imported/flower_redB.obj-8f0c46be05041c86aff1b0b1085aa296.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flower_redB.obj-8f0c46be05041c86aff1b0b1085aa296.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/flower_redB.obj"
+dest_files=["res://.godot/imported/flower_redB.obj-8f0c46be05041c86aff1b0b1085aa296.mesh", "res://.godot/imported/flower_redB.obj-8f0c46be05041c86aff1b0b1085aa296.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

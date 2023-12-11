@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de0v8sfk2ixup"
+path="res://.godot/imported/stump_square.obj-f80dcc24925c24933b925f619a6adc22.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stump_square.obj-f80dcc24925c24933b925f619a6adc22.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/stump_square.obj"
+dest_files=["res://.godot/imported/stump_square.obj-f80dcc24925c24933b925f619a6adc22.mesh", "res://.godot/imported/stump_square.obj-f80dcc24925c24933b925f619a6adc22.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

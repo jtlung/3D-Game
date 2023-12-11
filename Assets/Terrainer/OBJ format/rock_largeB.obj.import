@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://105trgfufanv"
+path="res://.godot/imported/rock_largeB.obj-19626cdfad50bc55436d829d26b2122a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rock_largeB.obj-19626cdfad50bc55436d829d26b2122a.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/rock_largeB.obj"
+dest_files=["res://.godot/imported/rock_largeB.obj-19626cdfad50bc55436d829d26b2122a.mesh", "res://.godot/imported/rock_largeB.obj-19626cdfad50bc55436d829d26b2122a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

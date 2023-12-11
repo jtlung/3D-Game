@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4m6ks5aap0fy"
+path="res://.godot/imported/ground_riverCorner.obj-76429ba003933cbab28ad817cae87425.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_riverCorner.obj-76429ba003933cbab28ad817cae87425.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/ground_riverCorner.obj"
+dest_files=["res://.godot/imported/ground_riverCorner.obj-76429ba003933cbab28ad817cae87425.mesh", "res://.godot/imported/ground_riverCorner.obj-76429ba003933cbab28ad817cae87425.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dsbx6i8jfuc5u"
+path="res://.godot/imported/tree_default_dark.obj-e7f734b34222d2da4deafa6294a0c2db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_default_dark.obj-e7f734b34222d2da4deafa6294a0c2db.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/tree_default_dark.obj"
+dest_files=["res://.godot/imported/tree_default_dark.obj-e7f734b34222d2da4deafa6294a0c2db.mesh", "res://.godot/imported/tree_default_dark.obj-e7f734b34222d2da4deafa6294a0c2db.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

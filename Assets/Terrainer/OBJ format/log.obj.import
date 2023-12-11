@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b73e8iar8dp7e"
+path="res://.godot/imported/log.obj-4177ba341a33573985ca0e38f24c0001.mesh"
+
+[deps]
+
+files=["res://.godot/imported/log.obj-4177ba341a33573985ca0e38f24c0001.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/log.obj"
+dest_files=["res://.godot/imported/log.obj-4177ba341a33573985ca0e38f24c0001.mesh", "res://.godot/imported/log.obj-4177ba341a33573985ca0e38f24c0001.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

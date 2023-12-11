@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wmsfxvq5k7hp"
+path="res://.godot/imported/fence_simpleLow.obj-71ce7940d5b8bfcf582d4c7f60cdc1ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_simpleLow.obj-71ce7940d5b8bfcf582d4c7f60cdc1ee.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/fence_simpleLow.obj"
+dest_files=["res://.godot/imported/fence_simpleLow.obj-71ce7940d5b8bfcf582d4c7f60cdc1ee.mesh", "res://.godot/imported/fence_simpleLow.obj-71ce7940d5b8bfcf582d4c7f60cdc1ee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bam1vkxl3wwd1"
+path="res://.godot/imported/rock_tallH.obj-b4bcded3d64aaa02888b8e80e7204a1b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rock_tallH.obj-b4bcded3d64aaa02888b8e80e7204a1b.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/rock_tallH.obj"
+dest_files=["res://.godot/imported/rock_tallH.obj-b4bcded3d64aaa02888b8e80e7204a1b.mesh", "res://.godot/imported/rock_tallH.obj-b4bcded3d64aaa02888b8e80e7204a1b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

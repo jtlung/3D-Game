@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3b7x7j7kdy35"
+path="res://.godot/imported/stone_largeC.obj-b3c60e6d7fcf95699014386fc326f73f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stone_largeC.obj-b3c60e6d7fcf95699014386fc326f73f.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/stone_largeC.obj"
+dest_files=["res://.godot/imported/stone_largeC.obj-b3c60e6d7fcf95699014386fc326f73f.mesh", "res://.godot/imported/stone_largeC.obj-b3c60e6d7fcf95699014386fc326f73f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

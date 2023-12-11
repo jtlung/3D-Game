@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnr253qg2r47a"
+path="res://.godot/imported/cliff_cornerTop_stone.obj-3a2afe3defc9d437b20f27dfda6283ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cliff_cornerTop_stone.obj-3a2afe3defc9d437b20f27dfda6283ba.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/cliff_cornerTop_stone.obj"
+dest_files=["res://.godot/imported/cliff_cornerTop_stone.obj-3a2afe3defc9d437b20f27dfda6283ba.mesh", "res://.godot/imported/cliff_cornerTop_stone.obj-3a2afe3defc9d437b20f27dfda6283ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

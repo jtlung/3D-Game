@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btctvkgxxbmqo"
+path="res://.godot/imported/flower_yellowC.obj-e9967f04141bfcf88da70e973a0bdee8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flower_yellowC.obj-e9967f04141bfcf88da70e973a0bdee8.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/flower_yellowC.obj"
+dest_files=["res://.godot/imported/flower_yellowC.obj-e9967f04141bfcf88da70e973a0bdee8.mesh", "res://.godot/imported/flower_yellowC.obj-e9967f04141bfcf88da70e973a0bdee8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

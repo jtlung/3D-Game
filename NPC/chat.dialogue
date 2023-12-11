@@ -1,0 +1,13 @@
+~ main
+
+Blue Guy: Woah! Another person!
+Blue Guy: I thought I'd be be the only one here forever!
+- Surprised to see me?
+	Blue Guy: Yeah it's only these weird eye things. Could you take care of them? They're bugging me out.
+- What's with all the eyes?
+	Nathan: I dunno but they freak me out!
+- End the conversation => END
+Nathan: Why don't you use that gun over there to kill em all?
+Nathan: There's more through that red barrier, make sure to get them!
+
+=> END

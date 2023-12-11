@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=3 uid="uid://ccqet83xguayc"]
+
+[ext_resource type="Script" path="res://Enemies/eyebeam.gd" id="1_hlbqy"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_pnj2o"]
+margin = 0.0
+radius = 0.001
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_57o3o"]
+transparency = 1
+blend_mode = 3
+cull_mode = 2
+depth_draw_mode = 2
+shading_mode = 0
+specular_mode = 2
+albedo_color = Color(100, 0, 0, 1)
+disable_receive_shadows = true
+shadow_to_opacity = true
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_lgcst"]
+material = SubResource("StandardMaterial3D_57o3o")
+radius = 0.1
+height = 1.0
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_42805"]
+radius = 0.2
+height = 1.25
+
+[node name="eyeBeam" type="RigidBody3D"]
+mass = 0.01
+gravity_scale = 0.0
+can_sleep = false
+lock_rotation = true
+script = ExtResource("1_hlbqy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_pnj2o")
+disabled = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.91069e-15, 4.37114e-08, 1, 1, -4.37114e-08, 0, 4.37114e-08, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_lgcst")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_color = Color(10, 0, 0, 1)
+omni_range = 10.0
+omni_attenuation = 6.9644
+
+[node name="HitBox" type="Area3D" parent="."]
+transform = Transform3D(1.91069e-15, 4.37114e-08, 1, 1, -4.37114e-08, 0, 4.37114e-08, 1, -4.37114e-08, 0, 0, 0)
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HitBox"]
+shape = SubResource("CapsuleShape3D_42805")
+
+[connection signal="body_entered" from="HitBox" to="." method="_on_hit_box_body_entered"]

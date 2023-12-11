@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhod3n430jic3"
+path="res://.godot/imported/crops_dirtSingle.obj-9d028c06b4ee2e3967a150a171f4e52c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crops_dirtSingle.obj-9d028c06b4ee2e3967a150a171f4e52c.mesh"]
+
+source_file="res://Assets/Terrainer/OBJ format/crops_dirtSingle.obj"
+dest_files=["res://.godot/imported/crops_dirtSingle.obj-9d028c06b4ee2e3967a150a171f4e52c.mesh", "res://.godot/imported/crops_dirtSingle.obj-9d028c06b4ee2e3967a150a171f4e52c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
