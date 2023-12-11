@@ -19,19 +19,21 @@ shape = SubResource("BoxShape3D_jykfe")
 transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, 0, -0.8, 0)
 
 [node name="Skeleton3D" parent="Guy/Armature" index="0"]
-bones/0/position = Vector3(0, 0.127745, -1.8367e-09)
-bones/0/rotation = Quaternion(-0.0100814, 0, 0, 0.999949)
-bones/2/rotation = Quaternion(-0.0144256, -0.00168715, 0.54368, 0.839167)
-bones/4/rotation = Quaternion(-0.058785, 1.19003e-07, -8.1997e-09, 0.998271)
-bones/6/rotation = Quaternion(-0.0144256, 0.00168715, -0.54368, 0.839167)
-bones/8/position = Vector3(0, 0.111396, 0)
-bones/10/rotation = Quaternion(-0.00239011, -0.0113135, -0.705681, 0.708436)
-bones/11/rotation = Quaternion(0.0234399, 0.00193259, -0.00742776, 0.999696)
-bones/13/rotation = Quaternion(-0.00239011, 0.0113135, 0.705681, 0.708436)
-bones/14/rotation = Quaternion(0.0234399, -0.00193259, 0.00742776, 0.999696)
+bones/0/position = Vector3(0, 0.120808, -1.8367e-09)
+bones/0/rotation = Quaternion(-0.0098301, 0, 0, 0.999952)
+bones/2/rotation = Quaternion(-0.0143764, -0.00124289, 0.548462, 0.836051)
+bones/4/rotation = Quaternion(-0.052285, 1.19046e-07, -8.97689e-09, 0.998632)
+bones/6/rotation = Quaternion(-0.0143764, 0.00124289, -0.548462, 0.836051)
+bones/8/position = Vector3(0, 0.10956, 0)
+bones/9/rotation = Quaternion(2.66925e-08, -2.66925e-08, 0.707107, 0.707107)
+bones/10/rotation = Quaternion(-0.00223247, -0.0105673, -0.705778, 0.708351)
+bones/11/rotation = Quaternion(0.0208455, 0.00171869, -0.00660564, 0.999759)
+bones/12/rotation = Quaternion(2.66925e-08, 2.66925e-08, -0.707107, 0.707107)
+bones/13/rotation = Quaternion(-0.00223247, 0.0105673, 0.705778, 0.708351)
+bones/14/rotation = Quaternion(0.0208455, -0.00171869, 0.00660563, 0.999759)
 
 [node name="Hand" parent="Guy/Armature/Skeleton3D" index="1"]
-transform = Transform3D(-0.912525, -0.408408, -0.0223765, 0.408476, -0.912768, 0.0016397, -0.0210942, -0.00764398, 0.999748, -1.04204, 0.187879, -0.0253259)
+transform = Transform3D(-0.917121, -0.397965, -0.0226755, 0.398029, -0.917371, 0.0018065, -0.0215207, -0.00736871, 0.999741, -1.03238, 0.176689, -0.0246162)
 
 [node name="spawn" type="Node3D" parent="Guy/Armature/Skeleton3D/Hand/raygun" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)

@@ -125,7 +125,7 @@ environment = SubResource("Environment_lpouh")
 transform = Transform3D(-0.187193, 0, 0.982323, 0, 1, 0, -0.982323, 0, -0.187193, -7.41467, 6.832, -127.321)
 
 [node name="Player_Container" type="Node3D" parent="."]
-transform = Transform3D(0.985771, 0.168094, 0, -0.168094, 0.985771, 0, 0, 0, 1, 2.18164, 10.9368, -149.942)
+transform = Transform3D(0.985771, 0.168094, 0, -0.168094, 0.985771, 0, 0, 0, 1, 2.18164, 9.18905, -27.4677)
 
 [node name="Player" parent="Player_Container" instance=ExtResource("1_qsk2x")]
 transform = Transform3D(0.985771, -0.168094, 0, 0.168094, 0.985771, 0, 0, 0, 1, 0.385462, -2.26051, -4.23163)
