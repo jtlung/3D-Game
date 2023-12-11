@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dvp2o01pdutfe"]
+[gd_scene load_steps=6 format=3 uid="uid://dvp2o01pdutfe"]
 
 [ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_pfjur"]
 [ext_resource type="PackedScene" uid="uid://c5gytqtc02koe" path="res://Player/guy.tscn" id="2_wvbr1"]
+[ext_resource type="AudioStream" uid="uid://cqtunolkvyixn" path="res://Assets/Sound/413057__matrixxx__retro-laser-shot-01.wav" id="3_l1s3c"]
+[ext_resource type="AudioStream" uid="uid://c0hmqi0j8c5hc" path="res://Assets/Sound/458641__matrixxx__retro-jump-02.wav" id="4_dkxn0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_jykfe"]
 size = Vector3(1, 3, 1)
@@ -17,19 +19,19 @@ shape = SubResource("BoxShape3D_jykfe")
 transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, 0, -0.8, 0)
 
 [node name="Skeleton3D" parent="Guy/Armature" index="0"]
-bones/0/position = Vector3(0, 0.0716741, -1.8367e-09)
-bones/0/rotation = Quaternion(-0.00124657, 0, 0, 0.999999)
-bones/2/rotation = Quaternion(-0.0140143, 0.00190474, 0.581818, 0.813196)
-bones/4/rotation = Quaternion(-0.00618521, 1.19207e-07, -1.44706e-08, 0.999981)
-bones/6/rotation = Quaternion(-0.0140143, -0.00190474, -0.581818, 0.813196)
-bones/8/position = Vector3(0, 0.0965475, 0)
-bones/10/rotation = Quaternion(-0.000273995, -0.00129708, -0.706948, 0.707264)
-bones/11/rotation = Quaternion(0.00246617, 0.000203334, -0.000781495, 0.999997)
-bones/13/rotation = Quaternion(-0.000273995, 0.00129708, 0.706948, 0.707264)
-bones/14/rotation = Quaternion(0.00246618, -0.000203334, 0.000781495, 0.999997)
+bones/0/position = Vector3(0, 0.127745, -1.8367e-09)
+bones/0/rotation = Quaternion(-0.0100814, 0, 0, 0.999949)
+bones/2/rotation = Quaternion(-0.0144256, -0.00168715, 0.54368, 0.839167)
+bones/4/rotation = Quaternion(-0.058785, 1.19003e-07, -8.1997e-09, 0.998271)
+bones/6/rotation = Quaternion(-0.0144256, 0.00168715, -0.54368, 0.839167)
+bones/8/position = Vector3(0, 0.111396, 0)
+bones/10/rotation = Quaternion(-0.00239011, -0.0113135, -0.705681, 0.708436)
+bones/11/rotation = Quaternion(0.0234399, 0.00193259, -0.00742776, 0.999696)
+bones/13/rotation = Quaternion(-0.00239011, 0.0113135, 0.705681, 0.708436)
+bones/14/rotation = Quaternion(0.0234399, -0.00193259, 0.00742776, 0.999696)
 
 [node name="Hand" parent="Guy/Armature/Skeleton3D" index="1"]
-transform = Transform3D(-0.946211, -0.322583, -0.0250092, 0.322919, -0.946366, -0.0107175, -0.0202106, -0.0182169, 0.99963, -0.962602, 0.100889, -0.0191188)
+transform = Transform3D(-0.912525, -0.408408, -0.0223765, 0.408476, -0.912768, 0.0016397, -0.0210942, -0.00764398, 0.999748, -1.04204, 0.187879, -0.0253259)
 
 [node name="spawn" type="Node3D" parent="Guy/Armature/Skeleton3D/Hand/raygun" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
@@ -42,6 +44,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
 [node name="gunCD" type="Timer" parent="."]
 wait_time = 0.5
 one_shot = true
+
+[node name="laser" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_l1s3c")
+
+[node name="jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_dkxn0")
+volume_db = -10.0
 
 [connection signal="timeout" from="gunCD" to="." method="_on_gun_cd_timeout"]
 

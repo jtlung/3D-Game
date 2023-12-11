@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://6hdditi7bo4"]
+[gd_scene load_steps=5 format=3 uid="uid://6hdditi7bo4"]
 
 [ext_resource type="Theme" uid="uid://c1bscpunt6cnb" path="res://Assets/main.tres" id="1_bymgu"]
 [ext_resource type="Script" path="res://Menus/Main_Menu.gd" id="2_6ht3l"]
+[ext_resource type="Texture2D" uid="uid://bt1wjwty65m8c" path="res://Assets/Images/title.png" id="3_p582s"]
+[ext_resource type="AudioStream" uid="uid://bwmv1jw8d0ll6" path="res://Assets/Sound/stay_quiet.mp3" id="3_xomrk"]
 
 [node name="Main_Menu" type="Control"]
 layout_mode = 3
@@ -22,6 +24,12 @@ grow_horizontal = 2
 theme_override_font_sizes/font_size = 150
 text = "3D GAME"
 horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Label"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("3_p582s")
 
 [node name="Play" type="Button" parent="."]
 layout_mode = 1
@@ -71,6 +79,10 @@ offset_bottom = -64.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Score: 00"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_xomrk")
+autoplay = true
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

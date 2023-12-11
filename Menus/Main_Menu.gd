@@ -2,6 +2,7 @@ extends Control
 var states = ["3D GAME", "GAME OVER", "YOU WON"]
 
 func _ready():
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	$Label.text = states[Global.state]
 	if Global.state != 0:
 		$Score.show()

@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://bcehd51alqgtk"]
+[gd_scene load_steps=10 format=3 uid="uid://bcehd51alqgtk"]
 
 [ext_resource type="Texture2D" uid="uid://c283q6upgpjr3" path="res://Assets/Models/eyeguy_eyeball.png" id="2_2ss1l"]
 [ext_resource type="Script" path="res://Enemies/Eye.gd" id="2_g8esd"]
+[ext_resource type="AudioStream" uid="uid://c0xo52g3sc4i4" path="res://Assets/Sound/697730__sustainededed__small-laser.mp3" id="3_oxa3o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cnkap"]
 diffuse_mode = 2
@@ -82,5 +83,10 @@ shape = SubResource("SphereShape3D_f7v2f")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
 shape = SubResource("SphereShape3D_f7up8")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("3_oxa3o")
+volume_db = 2.0
+max_distance = 200.0
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

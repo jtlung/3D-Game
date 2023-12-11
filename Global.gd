@@ -29,6 +29,7 @@ func interact(plr):
 		var node = get_node_or_null("/root/Game/Interactibles/button")
 		if node and node.get_node("Red"):
 			itemFlags.button = false
+			node.get_node("sound").play()
 			node.get_node("text").hide()
 			node.get_node("Cube").hide()
 			node.get_node("Cube2").show()

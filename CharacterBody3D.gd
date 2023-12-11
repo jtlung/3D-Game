@@ -40,6 +40,7 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("Equip") and hasGun:
 		gunEquipped = not gunEquipped
 	if Input.is_action_just_pressed("Jump") and is_on_floor():
+		$jump.play()
 		velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.
@@ -89,6 +90,7 @@ func damage(dmg):
 func shoot():
 	if canShoot:
 		canShoot = false
+		$laser.play()
 		$gunCD.start()
 		var beam = beamFile.instantiate()
 		add_sibling(beam)
