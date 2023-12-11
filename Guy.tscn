@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw1ex8cslb1ty"]
+
+[ext_resource type="PackedScene" uid="uid://b3i8klr3bcfwa" path="res://Player/testGuy.glb" id="1_4h0gf"]
+
+[node name="testGuy" instance=ExtResource("1_4h0gf")]
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+bones/1/scale = Vector3(1.00048, 1.00048, 1.00048)

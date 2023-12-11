@@ -1,0 +1,117 @@
+[gd_scene load_steps=8 format=3 uid="uid://l81tev0ncxhu"]
+
+[ext_resource type="PackedScene" uid="uid://dvp2o01pdutfe" path="res://Player/Player.tscn" id="1_qsk2x"]
+[ext_resource type="Script" path="res://Menus/Pause Menu.gd" id="2_1ks0w"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_on5n3"]
+sky_top_color = Color(0.211765, 0.454902, 0.737255, 1)
+sky_horizon_color = Color(0.435294, 0.701961, 0.760784, 1)
+ground_bottom_color = Color(0.14902, 0.25098, 0.470588, 1)
+ground_horizon_color = Color(0.372549, 0.713726, 0.776471, 1)
+
+[sub_resource type="Sky" id="Sky_tk51q"]
+sky_material = SubResource("ProceduralSkyMaterial_on5n3")
+
+[sub_resource type="Environment" id="Environment_lpouh"]
+background_mode = 2
+background_color = Color(0.619608, 0.894118, 1, 1)
+sky = SubResource("Sky_tk51q")
+ambient_light_source = 3
+reflected_light_source = 2
+ssao_enabled = true
+ssao_intensity = 16.0
+ssao_horizon = 0.5
+ssao_sharpness = 1.0
+glow_enabled = true
+glow_normalized = true
+glow_intensity = 1.39
+glow_strength = 0.85
+glow_bloom = 0.05
+glow_blend_mode = 1
+fog_enabled = true
+fog_light_color = Color(0.376471, 0.682353, 0.858824, 1)
+fog_light_energy = 2.0
+fog_density = 0.001
+fog_sky_affect = 0.0
+volumetric_fog_density = 0.0421
+volumetric_fog_ambient_inject = 1.69
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_mr8sn"]
+size = Vector2(25, 25)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8rvek"]
+data = PackedVector3Array(12.5, 0, 12.5, -12.5, 0, 12.5, 12.5, 0, -12.5, -12.5, 0, 12.5, -12.5, 0, -12.5, 12.5, 0, -12.5)
+
+[node name="Game" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_lpouh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_mr8sn")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_8rvek")
+
+[node name="Player" parent="." instance=ExtResource("1_qsk2x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.01475, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.995224, -0.0333984, -0.0917265, 0.0976176, 0.340501, 0.935163, 0, -0.939651, 0.342135, 0, 0, 0)
+light_color = Color(1, 0.807843, 0.478431, 1)
+light_energy = 1.5
+light_angular_distance = 5.0
+shadow_enabled = true
+
+[node name="Menu" type="Control" parent="."]
+process_mode = 3
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_1ks0w")
+
+[node name="ColorRect" type="ColorRect" parent="Menu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.478431)
+
+[node name="Menu" type="Button" parent="Menu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -73.5
+offset_top = -38.5
+offset_right = 73.5
+offset_bottom = 38.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "Menu"
+
+[node name="Label" type="Label" parent="Menu"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 140.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 100
+text = "PAUSED
+"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Menu/Menu" to="Menu" method="_on_menu_pressed"]
